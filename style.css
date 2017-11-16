@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+body {
+	width: 900px;
+	min-height: 100%;
+	background-color: black;
+	margin: auto;
+}
+div {
+	margin: auto;
+}
+#header {
+	min-height: 100%;
+	background-color: white;
+	padding: 20px;
+	font-family: verdana;
+}
+#header > h1 {
+	display: inline-block;
+}
+#header > h2 {
+	display: inline-block;
+	float: right;
+}
+#main {
+	height: auto;
+	padding: 20px;
+	padding-bottom: 0px;
+	background: linear-gradient(black, grey, black);
+}
+#about img {
+	width: 410px;
+	border: 5px solid grey;
+	display: inline-block;
+}
+#about-box {
+	vertical-align: top;
+	width: 415px;
+	height: 280px;
+	display: inline-block;
+	background-color: lightgrey;
+	float: right
+}
+.box-heading {
+	font-family: verdana;
+	font-size: 20px;
+	color: white;
+	background: linear-gradient(silver, grey, silver);
+/*	padding-left: 20px;*/
+	padding: 10px;	 
+}
+#about-box p, a {
+	font-family: times;
+	font-size: 15px;
+	padding: 10px;
+}
+#columns {
+	height: auto;
+/*	background-color: grey;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.column {
+	vertical-align: top;
+	background: linear-gradient(-90deg, grey, silver); 
+	display: inline-block;
+	width: 270px;
+	height: 560px;
+}
+#columns .column:nth-child(2) {
+	margin-left: 21px;
+}
+#columns .column:nth-child(3) {
+	float: right;
+}
+#columns .column img {
+	width: 270px;
+	border-style: none;
+}
+#columns .column p {
+	height: 112px;
+	padding: 10px;
+	font-family: verdana;
+	font-size: 11px;
+	margin-top: -4px;
+	background: linear-gradient(-90deg, grey, silver); 
+}
+#columns .image-box {
+	padding: 10px;
+	margin-top: 10px;
+}
+#columns .image-box img {
+	width: 40px;
+	padding: 3px;
+}
+#columns .column button {
+	background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+	margin: auto;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px grey;
+}
+#columns .column:nth-child(1) button {
+	margin-left: 95px;
+}
+#columns .column:nth-child(2) button {
+	margin-left: 75px;
+}
+#columns .column:nth-child(3) button {
+	margin-left: 90px;
+}
+#columns .column .box-heading:nth-of-type(2) {
+	margin: auto;
+	width: 250px;
+	height: 24px;
+	font-size: 15px;
+}
+#footer {
+	min-height: 100%;
+	background-color: white;
+	padding: 2px;
+	font-family: verdana;
+}
+#footer div {
+	text-align: center;
+}
+#contact p {
+	font-size: 15px;
+}
+#social {
+	margin-top: 10px;
+}
+#social img {
+	width: 20px;
+}
+#social a {
+	font-style: italic;
+	position: relative;
+	padding: 0px;
+	bottom: 7px;
+}
+
